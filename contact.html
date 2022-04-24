@@ -5,31 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chingiz Mustafayev's Portfolio</title>
+  <meta name="description" content="Chingiz Mustafayev's portfolio website">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:400,300,600">
+  <link rel="stylesheet" type="text/css" href="//unpkg.com/browse/normalize.css@8.0.1/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li class="nav-item">
-          <a href="/index.html">
+        <a href="/index.html">
+          <li class="nav-item">
             Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="/about.html">
+          </li>
+        </a>
+        <a href="/about.html">
+          <li class="nav-item">
             About
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="/projects.html">
+          </li>
+        </a>
+        <a href="/projects.html">
+          <li class="nav-item">
             Projects
-          </a>
-        </li>
-        <li class="nav-item nav-active">
-          <a href="/contact.html">
+          </li>
+        </a>
+        <a href="/contact.html">
+          <li class="nav-item nav-active">
             Contact
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </nav>
   </header>
@@ -39,30 +45,31 @@
         Contact Me
       </h1>
       <form action="" method="">
-        <fieldset>
+        <fieldset class="contact-personal-info">
           <legend>Personal info</legend>
           <label for="first-name">First name: </label>
-          <input type="text" name="first-name" id="first-name">
+          <input type="text" name="first-name" id="first-name" placeholder="First name">
           <label for="last-name">Last name: </label>
-          <input type="text" name="last-name" id="last-name">
+          <input type="text" name="last-name" id="last-name" placeholder="Last name">
           <label for="email">Email: </label>
-          <input type="email" name="email" id="email">
+          <input type="email" name="email" id="email" placeholder="Email">
         </fieldset>
-        <fieldset>
+        <fieldset class="contact-message">
           <legend>Message</legend>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..."></textarea>
         </fieldset>
-        <fieldset>
+        <fieldset class="contact-additional">
           <legend>Additional</legend>
           <span>Do you expect a reply?</span>
           <input type="radio" name="reply-expected" id="reply-expected-yes" value="yes">
           <label for="reply-expected-yes">Yes</label>
           <input type="radio" name="reply-expected" id="reply-expected-no" value="no">
           <label for="reply-expected-no">No</label>
+          <br>
           <input type="checkbox" name="newsletter-subscribed" id="newsletter-subscribed" value="yes">
           <label for="newsletter-subscribed">Subscribe to newsletter</label>
         </fieldset>
-        <div>
+        <div class="contact-buttons">
           <input type="reset" value="Reset">
           <input type="submit" value="Submit">
         </div>

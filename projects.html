@@ -5,31 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chingiz Mustafayev's Portfolio</title>
+  <meta name="description" content="Chingiz Mustafayev's portfolio website">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway:400,300,600">
+  <link rel="stylesheet" type="text/css" href="//unpkg.com/browse/normalize.css@8.0.1/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li class="nav-item">
-          <a href="/index.html">
+        <a href="/index.html">
+          <li class="nav-item">
             Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="/about.html">
+          </li>
+        </a>
+        <a href="/about.html">
+          <li class="nav-item">
             About
-          </a>
-        </li>
-        <li class="nav-item nav-active">
-          <a href="/projects.html">
+          </li>
+        </a>
+        <a href="/projects.html">
+          <li class="nav-item nav-active">
             Projects
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="/contact.html">
+          </li>
+        </a>
+        <a href="/contact.html">
+          <li class="nav-item">
             Contact
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </nav>
   </header>
@@ -42,37 +48,43 @@
         <div class="projects-item">
           <div class="project-info">
             <h2 class="project-title">
-              <a href="https://qlnk.ml">
+              (INACTIVE) <a style="cursor: not-allowed;">
                 qlnk.ml
-              </a> - A quick way of link shortening.
+              </a> - A quick way of link shortening
             </h2>
-            <span class="project-date">
+            <p class="project-date">
               Date: <time datetime="2020">2020</time>
-            </span>
+            </p>
             <p class="project-description">
-              Description: Simple link shortening website. Also supports text sharing. Written in JavaScript and uses MongoDB as storage.
+              Description: Simple link shortening website. Also supports text sharing. Written in JavaScript (NodeJS) and uses MongoDB as storage.
             </p>
           </div>
           <div class="project-visuals">
-            <video src="" controls>qlnk.ml demo</video>
+            <figure>
+              <video src="static/qlnk.ml-demo.mov" autoplay loop>qlnk.ml demo</video>
+              <figcaption>Demo</figcaption>
+            </figure>
           </div>
         </div>
         <div class="projects-item">
           <div class="project-info">
             <h2 class="project-title">
-              <a href="https://t.me/Daily_Weather_Reporter_Bot">
+              <a href="https://t.me/Daily_Weather_Reporter_Bot" target="_blank" rel="noopener noreferrer">
                 Daily Weather Reporter
               </a> - Telegram bot
             </h2>
-            <span class="project-date">
+            <p class="project-date">
               Date: <time datetime="2021-05">May 2021</time>
-            </span>
+            </p>
             <p class="project-description">
-              Description: Bot for daily weather forecast reporting at given time for the given location. Written in JavaScript.
+              Description: Bot for daily weather forecast reporting at given time for the given location. Written in JavaScript (NodeJS).
             </p>
           </div>
           <div class="project-visuals">
-            <img src="" alt="Daily Weather Reporter icon">
+            <figure>
+              <img src="static/daily-weather-reporter-icon.jpeg" alt="Daily Weather Reporter icon">
+              <figcaption>Daily Weather Reporter icon</figcaption>
+            </figure>
           </div>
         </div>
       </div>
