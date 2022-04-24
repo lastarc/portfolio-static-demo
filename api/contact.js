@@ -27,14 +27,14 @@ ${request.query["message"]}`,
   };
 
   const next = (success) => {
-    request.query.next ? decodeURIComponent(request.query.next) : "/";
-    if (next.indexOf("?") < 0) {
-      next += "?";
+    let url = request.query.next ? decodeURIComponent(request.query.next) : "/";
+    if (url.indexOf("?") < 0) {
+      url += "?";
     } else {
-      next += "&";
+      url += "&";
     }
-    next += `success=${success}`;
-    return next;
+    url += `success=${success}`;
+    return url;
   };
 
   const req = https
