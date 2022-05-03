@@ -32,6 +32,16 @@ textarea {
   font-family: Raleway;
 }
 
+.high-contrast {
+  --c1: black;
+  --c2: black;
+  --c3: yellow;
+  --c4: yellow;
+  --bg-color: black;
+  --text-color: yellow;
+  --text-secondary: yellow;
+}
+
 /* Header */
 
 header {
