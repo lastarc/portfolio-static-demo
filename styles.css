@@ -169,12 +169,14 @@ section h1, section h2, section p {
 
 .homepage ul li a {
   display: inline-block;
-  padding: 0.5rem 0.7rem;
+  padding: 0.5rem;
   text-decoration: none;
+  border-bottom: 1px solid var(--c4);
 }
 
 .homepage ul li a:hover, .homepage ul li a:focus {
   color: var(--c3);
+  border-bottom: 1px solid var(--c3);
 }
 
 @media (min-width: 500px) {
