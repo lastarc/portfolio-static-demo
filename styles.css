@@ -7,6 +7,7 @@
   --c4: #EDEDED;
   --bg-color: var(--c1);
   --text-color: var(--c4);
+  --text-secondary: #cccccc;
 }
 
 /* Globals */
@@ -271,7 +272,7 @@ caption {
 .project-info .project-date {
   padding: 0 0.4rem;
   font-size: 0.8rem;
-  color: #cccccc;
+  color: var(--text-secondary);
 }
 
 .project-visuals {
@@ -292,7 +293,7 @@ caption {
 .project-visuals figcaption {
   text-align: center;
   font-size: 0.8rem;
-  color: #cccccc;
+  color: var(--text-secondary);
 }
 
 /* Contact */
