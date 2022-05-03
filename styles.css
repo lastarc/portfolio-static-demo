@@ -185,6 +185,11 @@ section h1, section h2, section p {
   border-spacing: 0;
 }
 
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
 .about table th, .about table td {
   border: var(--c2) 1px solid;
   width: 50%;
