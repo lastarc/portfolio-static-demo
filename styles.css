@@ -383,10 +383,10 @@ footer {
   flex-wrap: wrap;
 }
 
-footer .high-contrast-toggle {
+footer #high-contrast-toggle {
   cursor: pointer;
 }
 
-footer .high-contrast-toggle:hover {
+footer #high-contrast-toggle:hover {
   color: var(--c3);
 }
