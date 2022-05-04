@@ -3,8 +3,8 @@
 :root {
   --c1: #171717;
   --c2: #444444;
-  --c3: #DA0037;
-  --c4: #EDEDED;
+  --c3: #da0037;
+  --c4: #ededed;
   --bg-color: var(--c1);
   --text-color: var(--c4);
   --text-secondary: #cccccc;
@@ -66,7 +66,8 @@ nav ul li {
   margin: auto 5px;
 }
 
-nav ul li:hover, nav ul li:focus {
+nav ul li:hover,
+nav ul li:focus {
   background-color: var(--c2);
   color: var(--c3);
   cursor: pointer;
@@ -102,7 +103,6 @@ nav ul li.nav-active {
     margin: auto 30px;
   }
 }
-
 
 /* Main */
 
@@ -140,7 +140,9 @@ section {
   }
 }
 
-section h1, section h2, section p {
+section h1,
+section h2,
+section p {
   padding: 0.4rem;
 }
 
@@ -181,7 +183,8 @@ section h1, section h2, section p {
   border-bottom: 1px solid var(--c4);
 }
 
-.homepage ul li a:hover, .homepage ul li a:focus {
+.homepage ul li a:hover,
+.homepage ul li a:focus {
   color: var(--c3);
   border-bottom: 1px solid var(--c3);
 }
@@ -210,7 +213,8 @@ caption {
   caption-side: bottom;
 }
 
-.about table th, .about table td {
+.about table th,
+.about table td {
   border: var(--c2) 1px solid;
   width: 50%;
   padding: 0.4rem;
@@ -241,7 +245,8 @@ caption {
 .about .tech-skill-visuals img {
   width: 3rem;
   height: 3rem;
-  filter: invert(98%) sepia(0%) saturate(1068%) hue-rotate(62deg) brightness(117%) contrast(86%);
+  filter: invert(98%) sepia(0%) saturate(1068%) hue-rotate(62deg)
+    brightness(117%) contrast(86%);
 }
 
 .about .tech-skill ul {
@@ -255,7 +260,8 @@ caption {
 
 /* Projects */
 
-.projects-wrapper, .projects-item {
+.projects-wrapper,
+.projects-item {
   width: 100%;
   display: flex;
 }
@@ -269,7 +275,8 @@ caption {
   margin: 0.6rem auto;
 }
 
-.project-info, .project-visuals {
+.project-info,
+.project-visuals {
   width: 100%;
   margin: 1rem auto;
 }
@@ -278,7 +285,7 @@ caption {
   .project-info {
     width: 65%;
   }
-  
+
   .project-visuals {
     width: 35%;
   }
@@ -304,7 +311,8 @@ caption {
   max-width: 90%;
 }
 
-.project-visuals img, .project-visuals video {
+.project-visuals img,
+.project-visuals video {
   max-height: 10rem;
   width: 100%;
 }
@@ -327,7 +335,8 @@ caption {
   display: none;
 }
 
-.contact input, fieldset textarea {
+.contact input,
+fieldset textarea {
   margin: 0.75rem auto;
   padding: 0.4rem 0.6rem;
   color: var(--c4);
@@ -336,13 +345,17 @@ caption {
   border-bottom: var(--c2) 1px solid;
 }
 
-.contact input:hover, .contact input:focus,
-.contact textarea:hover, .contact textarea:focus {
+.contact input:hover,
+.contact input:focus,
+.contact textarea:hover,
+.contact textarea:focus {
   outline: none;
   border-bottom: var(--c3) 1px solid;
 }
 
-.contact input[type=text], fieldset input[type=email], fieldset textarea {
+.contact input[type="text"],
+fieldset input[type="email"],
+fieldset textarea {
   width: 100%;
 }
 
