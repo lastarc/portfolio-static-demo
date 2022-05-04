@@ -35,7 +35,7 @@ textarea {
 .high-contrast {
   --c1: black;
   --c2: black;
-  --c3: yellow;
+  --c3: white;
   --c4: yellow;
   --bg-color: black;
   --text-color: yellow;
@@ -68,6 +68,7 @@ nav ul li {
 
 nav ul li:hover, nav ul li:focus {
   background-color: var(--c2);
+  color: var(--c3);
   cursor: pointer;
 }
 
@@ -365,4 +366,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .high-contrast-toggle {
+  cursor: pointer;
+}
+
+footer .high-contrast-toggle:hover {
+  color: var(--c3);
 }
