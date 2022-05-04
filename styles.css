@@ -29,6 +29,10 @@ a {
   color: inherit;
 }
 
+a:visited, a:hover, a:active {
+  filter: brightness(80%);
+}
+
 textarea {
   font-family: Raleway;
 }
