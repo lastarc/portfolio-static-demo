@@ -387,6 +387,10 @@ footer {
   flex-wrap: wrap;
 }
 
+footer div {
+  padding: 0 10px;
+}
+
 footer #high-contrast-toggle {
   cursor: pointer;
 }
