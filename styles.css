@@ -29,7 +29,9 @@ a {
   color: inherit;
 }
 
-a:visited, a:hover, a:active {
+a:visited,
+a:hover,
+a:active {
   filter: brightness(80%);
 }
 
@@ -213,9 +215,10 @@ section p {
   border-spacing: 0;
 }
 
-caption {
-  padding: 10px;
-  caption-side: bottom;
+.about figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
 }
 
 .about table th,
@@ -385,6 +388,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 0.5rem 1rem;
 }
 
 footer #high-contrast-toggle {
