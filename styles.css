@@ -391,6 +391,10 @@ footer {
   gap: 0.5rem 1rem;
 }
 
+footer div {
+  padding: 0 10px;
+}
+
 footer #high-contrast-toggle {
   cursor: pointer;
 }
