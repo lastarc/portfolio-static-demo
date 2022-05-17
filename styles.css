@@ -389,10 +389,22 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem 1rem;
+  font-size: 0.8rem;
 }
 
 footer div {
   padding: 0 10px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+  }
+
+  footer div {
+    width: 100%;
+  }
 }
 
 footer #high-contrast-toggle {
